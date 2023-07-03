@@ -23,7 +23,7 @@ void main() {
     print("$a");
   }
 
-  print("\n{ UYGULAMA 2 }\n");
+  print("\n{ UYGULAMA 3 }\n");
 
 // yine for döngüsü ile liste içindeki değerlere farklı bir yolla ulaşmak..
 
