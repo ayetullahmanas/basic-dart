@@ -9,6 +9,7 @@ void main() {
 
   String numara1 = "1234";
 
+  // parse -> ayrıştırmak anlamına gelir.
   int sayi1 = int.parse(numara1); // numara1'i dönüştürüyoruz.
   print(sayi1);
 
@@ -26,3 +27,6 @@ void main() {
 
   // [print fonksiyonu] çıktı işlemleri içindir.
 }
+
+// Not: Her int'i String'e çevirebiliriz
+// Ancak Her String'i int'e çeviremeyiz.

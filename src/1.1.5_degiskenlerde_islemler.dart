@@ -37,7 +37,7 @@ void main() {
   String ad2 = "Ali";
   String soyad2 = "Can";
 
-  print("Adınız: $ad2, Soyadınız: $soyad2");
+  print("Adınız: $ad2, Soyadınız: ${soyad2.toUpperCase()}");
   // " " -> tırnaklar içerisinde değişken için $ işareti kullanılır
 
   // { UYGULAMA 4 }
@@ -46,7 +46,8 @@ void main() {
 
   /// metin işlemleri içinde matematiksel işlem yaptırmak
 
-  print("Sayılar Toplamı: ${8 + 9}");
+  int sayi3 = 8;
+  print("Sayılar Toplamı: ${sayi3 + 9}");
 
   /// tırnalar arasında işlem yapmak için ${} karakterleri birlikte kullanılır.
 }
