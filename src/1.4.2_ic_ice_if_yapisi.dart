@@ -22,4 +22,35 @@ void main() {
   } else {
     "Yanlış Not Girdiniz!";
   }
+
+  ///
+  /// Switch - Case Yapısı
+  ///
+
+  /// bu yapıyla yapabileceklerimizi if-else ile de yapabiliriz.
+  /// genelde switch-case ifadeleri yerine if-else kullanılır.
+
+  /// Üstteki kodun switch-case hali aşağıdadır.;
+
+  print("\n{ UYGULAMA 2 }\n");
+
+  switch (notu) {
+    case >= 0 && <= 49:
+      print("Zayıf");
+      break;
+    case >= 50 && <= 79:
+      print("İyi");
+      break;
+    case >= 80 && <= 100:
+      print("Çok İyi");
+      break;
+    default:
+      print("Yanlış Not Girdiniz!");
+      break;
+  }
+
+  // switch: değiştirmek demektir. - case: durum demektir. - default: varsayılan
+  // hiçbir koşul sağlanmazsa default kısmı çalışır.
+  // koşula uygun case hangisiyse o çalışır.
+  // switch koşulumuzu yazdığımız yerdir.
 }

@@ -1,6 +1,6 @@
 void main() {
-  /// birden fazla değeri tek bir değişken içinde tuttuğumuz yapılar.
-  /// değiken tipleri aynı da olabilir farklı da olabilir
+  /// Listeler birden fazla değeri tek bir değişken içinde tuttuğumuz yapılardır
+  /// değişken tipleri aynı da olabilir farklı da olabilir
 
   /// List<Değişken_Türü> degisken_adi = [degerler];
   /// Liste değerleri [] içinde girilir
@@ -27,7 +27,7 @@ void main() {
 
   print("\n{ UYGULAMA 3 }\n");
 
-  List karmasik = ["Muz", "Portakal", "Mandalina", "Limon", 5, 8.9, true];
+  List<dynamic> karmasik = ["Muz", "Portakal", "Mandalina", "Limon", 5, 8.9, true];
   print(karmasik);
   // farklı veri tipleri tek listede kullanılmış, değişken türü belirtilmemiş.
 
@@ -47,7 +47,7 @@ void main() {
 
   // { UYGULAMA 5}
 
-  print("\n{ UYGULAMA 5 }\n");
+  print("\n{ UYGULAMA 6 }\n");
 
   /// Listeler, kendi içinde değer olarak "birden fazla" LİSTE TUTABİLİR.
 
@@ -57,4 +57,22 @@ void main() {
 
   List tum_listeler = [liste3, liste4, liste5];
   print(tum_listeler);
+
+  ///
+  ///
+  ///
+  /// Set'ler
+  ///
+  ///
+  /// Set'lerin Listelerden tek farkı, aynı öğeden sadece bir tane barındırırlar.
+  /// Tanımlama yaparken liste öğelerini [] ile gösterirken
+  /// Set öğelerini {} ile gösteririz.
+
+  print("\n{ UYGULAMA 5 }\n");
+
+  List<int> sayiListe = [1, 1, 1, 2, 2, 3, 3];
+  // tekrar edenleri yazmayacaktır. Yorum satırlarını kaldırın!
+  //Set<int> sayiSet = {1, 1, 1, 2, 2, 3, 3};
+  print(sayiListe);
+  //print(sayiSet);
 }

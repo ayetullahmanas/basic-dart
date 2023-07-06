@@ -1,3 +1,5 @@
+import 'dart:math';
+
 /// Değişkenler içlerinde belli değerler tutan yapılardır, bu yapıların
 /// uygun kurallara göre değişken tipini ve alacakları değerleri
 /// değiştirebiliriz.
@@ -73,11 +75,27 @@ int mod = sayi1 % sayi2;
 void main() {
   // Arttırıp Atama Operatörü (+=):
   int x = 5;
-  x += 5;
-  print(x);
+  x += 14;
+  print("$x \n");
 
 // Azaltıp Atama Operatörü (-=):
   int y = 5;
-  y -= 5;
-  print(y);
+  y -= 2;
+  print("$y \n");
+
+// Bir Arttırma
+  x++;
+  print("$x \n");
+
+// Bir Azaltma
+  y--;
+  print("$y \n");
+
+  // Sayının Üstünü Alma
+  var z = pow(5, 3); // bir sayının üstünü almayı sağlar.
+  print("$z \n");
+
+  // Sayının Tam karesini Alma
+  var z2 = sqrt(25); // içindeki sayının hangi sayının karesi olduğunu gösterir.
+  print("$z2 \n");
 }

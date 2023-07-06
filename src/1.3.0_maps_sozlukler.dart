@@ -71,4 +71,25 @@ void main() {
   };
   sozluk2.remove(16);
   print(sozluk2);
+
+  ///
+  /// Map'in key ve value değerlerin ayrı ayrı okuma işlemi.
+  ///
+
+  print("\n{ UYGULAMA 7 }\n");
+
+  Map<String, int> maaslar = {
+    "ali": 1000,
+    "ahmet": 2000,
+    "ayşe": 3000,
+    "hatice": 4000,
+  };
+
+  // maaslar map'indeki key'leri al ve isimler adındaki listeye ekle
+  List<String> isimler = maaslar.keys.toList();
+  // maaslar map'indeki value'leri al ve maasDegerleri adındaki listeye ekle
+  List<int> maasDegerleri = maaslar.values.toList();
+
+  print(isimler[2]); // isimler listesinden 2. indexteki elemanı yazdır.
+  print(maasDegerleri[2]); // maasDegerleri listesinde 2. indexi yazdır.
 }

@@ -24,5 +24,22 @@ double ortalama() {
 String birlestir(String adi, String soyadi) {
   String adiSoyadi;
   adiSoyadi = adi + " " + soyadi;
-  return adiSoyadi;
+  return adiSoyadi; // return -> "dönüş, döndürmek" demektir.
+}
+
+/*
+Aşağıda 2 adet fonksiyon bulunmaktadır. Bunlardan birinin türü belirtilmiş ve
+diğerinin türü belirtilmemiştir.
+Türü belirtilen fonksiyon geri değer dönrüden bir fonksiyondur.
+*/
+
+bol1(int bolunen, int bolen) {
+  double sonuc = bolunen / bolen;
+  print(sonuc);
+}
+
+double bol2(int bolunen, int bolen) {
+  double sonuc = bolunen / bolen;
+  return sonuc;
+  //print("returnden sonra yazılmış kod"); // bu kod hata vermez ama çalışmaz.
 }

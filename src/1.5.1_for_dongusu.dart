@@ -7,10 +7,18 @@
 //   }
 
 void main() {
-  print("\n{ UYGULAMA 1 }\n");
+  print("\n{ UYGULAMA 0 }\n");
 
   for (var i = 0; i < 5; i++) {
     print("İstanbul"); // 0,1,2,3,4 toplamda 5 kere istanbul yazacaktır.
+  }
+
+  /// her iterasyonda(adımda) {} arasındaki çıktıyı verir. Toplamda 5 kere.
+
+  print("\n{ UYGULAMA 1 }\n");
+
+  for (var i = 100; i <= 200; i += 5) {
+    print("100'den başlayarak 200'e kadar 5'er 5'er arttırdı. $i");
   }
 
   print("\n{ UYGULAMA 2 }\n");
