@@ -12,3 +12,12 @@
 
 
 
+
+
+// Tek satırlık yorum satırları bu şekilde atılır.
+
+/// Dokümantasyon yazmak aynı zamanda yorum satırları için 3 slaş kullanılır
+
+/*
+belli bir aralık içindeki her şeyi yorum satırına almak için bu kullanılır.
+*/

@@ -99,3 +99,24 @@ void main() {
   q = 15;
   print(q);
 }
+
+/*
+- Oop programlamada sınıf(class) içerisinde tanımladığımız değişkenlere
+  bazen daha sonra değer atamak isteyebiliriz.
+
+- null safety özelliğinden önce hata alınmazdı ancak String ve int tipiyle
+  belirtilmiş 5 adet değişkenin adları altında kırmızı işaret bulunmakta.
+  Hata verme zamanı null safety açıkkendir.
+
+- biz bu değişkenlerin değerlerini daha sonra atayacağımız belirtmek için
+  late komutunu kullanıyoruz türçede "geç" anlamına gelmektedir.
+
+*/
+
+class Calisan {
+  late String ad;
+  late String soyad;
+  late String adres;
+  late int maas;
+  late int telefon;
+}

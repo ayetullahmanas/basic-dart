@@ -1,20 +1,21 @@
-// 1.9.0 Sınıf ve Nesneler <-> Class & Objects
+// 1.9.1 Sınıf ve Nesneler <-> Class & Objects
 
-/// Class kullanımı, bir nesnenin şablonunu oluşturmaya benzer.
-/// Oluşturulan bu şablon sayesinde,
-/// yeni nesneler türetip,
-/// bu nesnelere verilen değerler sayesinde de istenilen özelliklerde nesneler
-/// oluşturulması sağlanır.
+/* 
+- Class kullanımı, bir nesnenin şablonunu oluşturmaya benzer.
+  Oluşturulan bu şablon sayesinde, yeni nesneler türetip, bu nesnelere verilen
+  değerler sayesinde de istenilen özelliklerde nesneler oluşturulması sağlanır.
 
-/// unutmayın, dart programlama dilinde her şey bir nesnedir.
+- Dart Programlama dilinde her şey bir nesnedir.
+*/
 
-/// Bir class içinde olabilecek yapılar;
-/// değişkenler (instances variable),
-/// constructors (yapıcılar)
-/// metotlar (fonksiyonlar)
+/* 
+- Bir class içinde olabilecek yapılar;
+    - değişkenler (instances variable),
+    - constructors (yapıcılar)
+    - metotlar (fonksiyonlar)
 
-// Bir class şu şekilde oluşturulur:
-// Class Adları büyük harfle başlar.
+- Class Adları büyük harfle başlar.
+*/
 
 class ClassName {
   //Komutlar
@@ -63,5 +64,7 @@ class Kitap2 {
   }
 }
 
-/// bu class içinde "kitapci" adında fonksiyon oluşturuldu ve bu fonksiyona
-/// sınıf içindeki nesneye nasıl ulaşılıyorsa o şekilde ulaşıldı.
+/*
+- Bu class içinde "kitapci" adında fonksiyon oluşturuldu ve bu fonksiyona
+  sınıf içindeki nesneye nasıl ulaşılıyorsa o şekilde ulaşıldı.
+ */

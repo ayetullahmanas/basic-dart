@@ -31,6 +31,11 @@ void main() {
   bol(15, 5, () {
     print("isimsiz fonksiyon");
   });
+
+  print("\n{ UYGULAMA 4 }\n");
+
+  bolme(40);
+  bolme(40, 10);
 }
 
 // parametreli fonksiyonun tanımlandığı yer.
@@ -57,6 +62,21 @@ void bolme(int sayi1, [int sayi2 = 20]) {
   print(sonuc);
 }
 
+/*
+üstteki fonksiyonda 2 parametre vardır birisi zorunlu parametre, diğeri
+opsiyonel isimlendirilmiş parametre ve {} işaretleri yerine [] işaretleri arasında
+yer almaktadır..
+
+eğer {} arasında yazmış olsaydık main fonksiyonu içindeki kullanımına baktığımızda
+"sayi1" parametresi'ni yazdıktan sonra sayi2 parametresinin varsayılan değerini
+değiştirmek istediğimizde ismini yazmak zorunda kalırdık.
+
+ancak [] arasında yazdığımız için, "sayi1" parametresini yazdıktan sonra
+"sayi2" parametresini değiştirmek istediğimizde ismini yazmak zorunda değiliz
+ve parametreyi yazmasak bile varsayılan değerini alacaktır ve hata da vermeyecektir.
+
+
+*/
 yazdir(String isim, int yas, String meslek, String sehir) {
   print("Merhaba $isim, Yaşınız: ${yas.toString()}, Mesleğiniz: $meslek, Sehriniz: $sehir");
 

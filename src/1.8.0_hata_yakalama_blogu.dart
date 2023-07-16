@@ -1,9 +1,12 @@
 // 1.8.0 Hata Yakalama Bloğu -> Try - Catch
+// -----------------------------------------
 
-/// programımızda istenmeyen bir hatayla karşılaşıldığında bu hatayı yakalayan
-/// ve yapılması gereken işlemleri yapan bloktur.
+/* 
+- Programımızda istenmeyen bir hatayla karşılaşıldığında bu hatayı yakalayan
+  ve yapılması gereken işlemleri yapan bloktur.
 
-/// Try bloğu hata olmadığında çalışır; catch bloğu hata kısmını yakalar.
+- Try bloğu hata olmadığında çalışır; catch bloğu hata kısmını yakalar.
+*/
 
 void main() {
   int sayi1 = 20;

@@ -1,4 +1,4 @@
-// 1.9.2 This Komutu
+// 1.9.3 This Komutu
 
 /// "this" ile class içinde oluşturulan değişkenler, yapıcı (constructor)
 /// parantezleri içinde parametre olarak kullanılarak kodların daha kısa
@@ -42,3 +42,18 @@ class Kitap {
 /// Böylelikle kodlar daha da kısalarak anlaşılır hale gelmiştir.
 /// Bu yapıda main() bloğu içinden gelen değişken değerleri yapıcı içinde
 /// oluşturulan değişkenlerin yazım sırasıyla aynı olmalıdır.
+
+
+/*
+- Sınıflara özel olarak, bazen diğer kapsamları atlayıp doğrudan sınıf kapmasına
+erişmek ve sınıf kapsamındaki değişkeni kullanmak isteyebiliriz.
+
+- Sınıf kapsamındaki değişkenlere ve fonksiyonlara doğrudan erişmemizi sağlayan
+anahtar kelime this kelimesidir.
+
+- Sınıf kapsamındaki değişkeni kullandığımızdan emin olmak için kullanırız.
+
+- kapsam konusunda sıkıntı yaşamamak için değişkenlere verilecek isimleri
+iyi seçmek gerekir.
+
+*/
